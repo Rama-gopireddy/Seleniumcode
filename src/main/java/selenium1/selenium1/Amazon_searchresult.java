@@ -5,20 +5,21 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
+import org.testng.Assert;
 
 public class Amazon_searchresult {
 	
 	
-     WebDriver driver;
+    WebDriver driver;
 	
-	 @FindBy(id="twotabsearchtextbox")
-	 WebElement searchbox;
+	@FindBy(id="twotabsearchtextbox")
+	WebElement searchbox;
 	
-	 public void search()
+    public void search()
 	{
 		
-	
-	searchbox.sendKeys("Books");
+    	Assert.assertTrue(searchbox.isDisplayed());
+	searchbox.sendKeys("soap");
 	searchbox.sendKeys(Keys.ENTER);
 		                                                                             
 	}

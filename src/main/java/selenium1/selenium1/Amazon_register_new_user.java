@@ -27,11 +27,11 @@ WebDriver driver;
 	
 	public void register()
 	{
-		un.sendKeys("devi");
-		mobilenum.sendKeys("9642198362");
-		pass.sendKeys("ytrytre");
+	un.sendKeys("devi");
+	mobilenum.sendKeys("9642198362");
+	pass.sendKeys("ytrytre");
 
-		verifynum.click();
+	verifynum.click();
 		
 	}
 	

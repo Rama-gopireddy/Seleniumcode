@@ -8,7 +8,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class Amazon_homepage {
 	
-WebDriver driver;
+    WebDriver driver;
 	
 	@FindBy(xpath="//span[@class='nav-line-2 ']")
 	WebElement accountandlist;
@@ -21,9 +21,9 @@ WebDriver driver;
 	public void accountandlist(WebDriver driver)
 	{
 		
-		Actions a1=new Actions(driver);
+	Actions a1=new Actions(driver);
 		
-		a1.moveToElement(accountandlist).perform();
+	a1.moveToElement(accountandlist).perform();
 		
 		
 	}

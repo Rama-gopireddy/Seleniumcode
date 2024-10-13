@@ -6,9 +6,9 @@ import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-public class Amazon_login_correct_credentials {
+public class Amazon_login_correct_credentials extends DDT_Class {
 	
-WebDriver driver;
+   WebDriver driver;
 	
 	@FindBy(id="ap_email")
 	WebElement un;
@@ -30,11 +30,11 @@ WebDriver driver;
 	{
 		
 	
-		un.sendKeys("ramagopireddy1@gmail.com");
-		continuebutton.click();
+	un.sendKeys(username);
+	continuebutton.click();
 		                                                                             
-		pass.sendKeys("Bhavik143#");
-		signinbutton.click();
+	pass.sendKeys(password);
+	signinbutton.click();
 		
 		
 	}

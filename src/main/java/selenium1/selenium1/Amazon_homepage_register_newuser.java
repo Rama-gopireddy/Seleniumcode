@@ -11,7 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 public class Amazon_homepage_register_newuser {
 	
 	
-WebDriver driver;
+    WebDriver driver;
 	
 	@FindBy(xpath="//span[@class='nav-line-2 ']")
 	WebElement accountandlist;

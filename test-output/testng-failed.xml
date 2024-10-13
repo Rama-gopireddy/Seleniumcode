@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="selenium1.selenium1.Amazon_login_testcase_incorrect_credentials">
+      <class name="selenium1.selenium1.Testcase2_Amazon_login_testcse_correct_credentials">
         <methods>
-          <include name="login_button"/>
+          <include name="login_buttion"/>
           <include name="launch"/>
           <include name="quit"/>
         </methods>
-      </class> <!-- selenium1.selenium1.Amazon_login_testcase_incorrect_credentials -->
+      </class> <!-- selenium1.selenium1.Testcase2_Amazon_login_testcse_correct_credentials -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
